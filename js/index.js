@@ -1,0 +1,13 @@
+const lessonsText = [`The first known facts about what now is Orekhovo-Zuyevo date back to 1209. The place was mentioned in the Moscow Chronicles as the place called "Volochok" where the battle between Vladimir's prince Yury and Ryazan's prince Izyaslav took place. The name "Volochok" (or, as it was later called, "Zuyev Volochok") is derived from the Slavic word for "portage": a place where wooden ships were carried by land from one river to another. In this place in particular, the ships were usually moved by land between the Klyazma and Nerskaya Rivers. The villages Orekhovo and Zuyevo were mentioned in the chronicle several more times during the Middle Ages.
+---
+In 1797, serf peasant Savva Vasilievich Morozov (Russian: Савва Васильевич Морозов) opened his first silk factory in Zuyevo. Later he shifted from silk to wool. In 1823, profits from his business allowed him to be freed from serfdom. In 1830, he moved his factories to the opposite bank of the Klyazma River to the place that was later named Nikolskoye.
+---
+At the end of the 19th and the beginning of the 20th centuries, Orekhovo and Zuyevo were the third largest textile production area in Russia after Moscow and St. Petersburg.
+---
+The first and largest Russian strike occurred in 1885 at Morozov's textile factories in Orekhovo-Zuyevo. Starting on January 7, 1885, at 10 o'clock in the morning, Vasily Volkov raised his hand and a red flag symbolizing victory for the workers and for all to follow him. On the fifth day of the strike, soldiers with their bayonets fixed arrived to arrest the leaders, Volkov and F. Shelukhin, at which time they shouted to their comrades and brothers, "Remember, one for all and all for one!"[11] This strike lasted several weeks and created the momentum for the revolutionary movement in Russia. Sometimes abbreviated as Orekh (Russian: Оре́х), a walnut or Orekhovo (Russian: Оре́хово) flavored brandy is often drank to not forget the sacrifices that these strikers in 1885 went through to standup and improve the lives of workers throughout the world.[8]
+---
+The Soviet of Workers' Deputies in Orekhovo were elected in March 1917 as one of the first Bolshevik soviets in Russia. Six weeks later, the birthplace of Savva Morozov was controlled by the Soviets. This was six months before the Bolshevik victory in the October Revolution in Petrograd. In May 1917, the representative of the Moscow District Committee of the RSDLP(b) wrote: "The masses in Orekhovo are very well disciplined, following the Soviet of Workers' Deputies, in which all are Bolsheviks ... The influence of this organization is such that Orekhovo is now under the dictatorship of the proletariat."[8]`
+]
+
+const lessonOneText = lessonsText[0].split('---');
+console.log(lessonOneText);
