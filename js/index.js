@@ -55,7 +55,6 @@ The girls work all day. They make clothes. They work twelve hours a day. At midd
 ---
 
 Each month, the shop owner gives the girls a little money. Alissa buys a book with her money. She reads the book after lunch.
----
 The shop owner is surprised. The other girls can't read.
 'Can you write? Can you count?' the shop owner asks.
 'Yes, I can,' Alissa says.
