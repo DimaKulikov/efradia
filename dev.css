@@ -1,0 +1,105 @@
+.page {
+  font-family: Roboto, sans-serif;
+}
+
+.page__main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 30px 0 0 0;
+  position: relative;
+}
+
+.header__title {
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.frames {
+  position: relative;
+}
+
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;  
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s;
+}
+
+.frame_active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.frame__subtitle {
+  margin: 0;
+  padding: 0 0 50px 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+.lesson-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 30px
+}
+
+.lesson-grid__link {
+  cursor: pointer;
+  background-color: #f1f3f4;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;  
+  transition: opacity .2s;
+}
+
+.lesson-grid__link:hover {
+  opacity: .7;
+}
+
+.lesson-grid__image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.lesson-grid__title {
+  font-size: 18px;
+}
+
+.lesson {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.lesson__image {
+  width: 500px;
+  max-height: 500px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.lesson__paragraph {
+  margin-bottom: 50px;
+}
+
+.back-btn {
+  background-color: #f1f3f4;
+  height: 54px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}

@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Efradia Language School</title>
+  <link rel="stylesheet" href="dev.css">
 </head>
-<body>
-  
+<body class="page">
+  <header class="header">
+    <h1 class="header__title">Efradia Language School</h1>
+  </header>
+  <main class="main page__main">
+
+    <section class="frame frame_active frame_lesson-grid">
+      <p class="frame__subtitle">Choose a lesson</p>
+      <ul class="lesson-grid">
+      </ul>
+    </section>
+    <section class="frame frame_lesson">
+      <p class="frame__subtitle lesson__subtitle">Lesson</p>
+      <button class="back-btn"> &larr; К выбору уроков</button>
+      <div class="lesson"></div>
+      <button class="back-btn"> &larr; К выбору уроков</button>
+    </section>
+   
+  </main>
+  <template id="lesson-paragraph">
+    <img src="" alt="" class="lesson__image">
+    <audio controls>
+      <source src="audio/1/1.mp3" type="audio/mpeg">
+    </audio>
+    <p class="lesson__paragraph">Text</p>
+  </template>
+  <template id="lesson-link">
+    <li class="lesson-grid__link">
+      <img src="img/1/1.jpg" alt="Lesson number one" class="lesson-grid__image">
+      <p class="lesson-grid__title">Lesson number one</p>
+    </li>
+  </template>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
