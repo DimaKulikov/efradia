@@ -103,7 +103,7 @@ The tall lady turns to the shop owner. 'Alissa will live in my house,' she says.
 'You must pay me,' the shop owner says.
 'No,' the tall lady says, 'Alissa isn't a slave.' 'Pack your things, Alissa,' she says. 'we will go home now.'
 Alissa goes with the tall lady. She is going to a new home. She is going to be happy.`,
-   title: `alissa`
+   title: `Alissa`
   }
 ]
 
@@ -130,8 +130,8 @@ const buildLesson = (lesson) => {
     const image = newParagraph.querySelector('.lesson__image');
     const audio = newParagraph.querySelector('source');
     const text = newParagraph.querySelector('.lesson__paragraph');
-    image.src = `/lessons/${lesson.title}/img/${i + 1}.png`;
-    audio.src = `/lessons/${lesson.title}/audio/${i + 1}.mp3`;
+    image.src = `lessons/${lesson.title}/img/${i + 1}.png`;
+    audio.src = `lessons/${lesson.title}/audio/${i + 1}.mp3`;
     text.textContent = paragraph;
     lessonSubtitle.textContent = lesson.title;
     lessonContainer.append(newParagraph);
@@ -144,7 +144,7 @@ const buildLessonLinks = (lessons, i) => {
     const newLink = template.cloneNode(true);
     const image = newLink.querySelector('.lesson-grid__image');
     const title = newLink.querySelector('.lesson-grid__title');
-    image.src = `/lessons/${lesson.title}/img/1.png`;
+    image.src = `lessons/${lesson.title}/img/1.png`;
     title.textContent = lesson.title;
     lessonLinks.append(newLink);
     image.addEventListener('click', () => {
